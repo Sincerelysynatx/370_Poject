@@ -1,0 +1,111 @@
+I.Database 1
+a)ETL - Extract Transform Load
+i.Data validation
+ii.Data Cleaning
+iii.Data Transforming
+iv.Data Aggregating
+v.Data Loading
+II.Query Optimization
+a) 
+III.Parts of a database System
+a)Database System
+b)DBMS Software	
+i.The engine to process queries
+ii.Does security
+c)Application program
+i.interface
+d)Management System
+i.Handles multiple users
+ii.Optimization
+e)Meta-data, data dictionary, data catalog
+i.Database definition or descriptive information
+ii.Specify the data types, structures, and constraints of the data to be stored
+f)Database
+i.Actual data
+IV.Database Design
+a)Requirements specification - first meeting with client to figure out the scope of project, and the functionalities. Don’t focus on the how.
+b)Conceptual Design - ER Diagram (picture that represents application)
+c)Logical Design - ER constructs to implementation model (ie DDL constructs for relational model)
+V.Data Retrieval
+a)Get a transcript report
+VI.Data Update
+VII.Three Schema Architecture and Data Independence
+a)External Level
+b)Conceptual Level
+c)Internal Level
+d)Purpose - chain of command, as long as the interfaces are clearly defined swapping of the levels shouldn’t matter
+e)Abstraction Allows for 
+i.Data independence
+VIII.Main “Database Actors”
+a)Database administrators (DBA)
+i.Authorize access to the database
+ii.Coordinate and monitor its use
+iii.Acquire software and hardware resources
+b)Database Developers
+i.Identify the data to be stored
+c)End Users
+i.People whose jobs require access to the database
+d)Casual Users
+i.Managers, support, general public who want to quick adhoc reports
+IX.SQL
+a)Structured Query Language
+b)DDL
+i.Data Definition language
+c)DML
+i.Data Manipulation Language
+1.Change, update, delete
+d)DCL
+i.Data Control Language
+1.Grant/deny access
+
+
+I.Sample Quiz
+a)Draw the ER Diagram that represents the following conditions
+i.A family can own multiple pets
+
+
+Entity relationship diagram / Conceptual model
+
+Entity - person, place or thing. Concept
+Concept - an idea with characteristics
+I.e. Car = color, number of doors, model 
+
+Entity is a rectangle 
+
+Simple attributes 
+
+Derived - dashed oval
+
+
+
+
+Underlined - key _________ (some kind of important unique value associated with the entity)
+
+Composite attribute - oval plus sub ovals 
+
+Double circle - multiple values
+
+Composite + multi-valued = complex attribute
+
+Left to right, top to down
+
+Diamond - relationship
+
+Double Diamond + Double Modifier = identifying relationship
+
+_ _ _ _ _ _ _ = weak entity type
+
+Participation constraint
+Total ===== Double line Employee must work for a department
+Partial ----------- Single line 
+
+Cardinality constraint
+M - many
+1 - one
+1 : 1
+1 : M
+M : 1
+M : N
+
+Structural constraint
+Includes PC and CC
