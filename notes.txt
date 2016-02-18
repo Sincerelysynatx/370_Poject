@@ -1,0 +1,9 @@
+Stuff to do:
+	-Create a user interface.
+		-Think of funny title relating to PC parts.
+		-Home Page
+			-What will it do
+			-Pictures
+			- 
+	-Crate an ER Diagram.
+	
