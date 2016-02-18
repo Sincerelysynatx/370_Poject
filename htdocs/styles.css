@@ -1,0 +1,44 @@
+body
+{
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+.page
+{
+  width: auto;
+  height: 500px;
+}
+
+.side_pannel
+{
+  text-align: center;
+  float: left;
+  width: 200px;
+  height: 100%;
+  background-color: teal;
+  border-radius: 0 5px 5px 0;
+}
+
+.side_pannel_item
+{
+  margin: 0 auto 0 auto;
+  font-size: 24px;
+}
+
+#sp_item_4
+{
+
+}
+
+#sp_item_5
+{
+  bottom: 0px;
+}
+
+.content
+{
+  background-color: tan;
+  width:auto;
+  height: 100%;
+}
