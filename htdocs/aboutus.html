@@ -5,6 +5,10 @@
 li{
 	display:inline;
 }
+body
+{
+	overflow: scroll;
+}
 </style>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
@@ -13,6 +17,11 @@ li{
 </head>
 <body>
 	<div class="w3-container w3-center w3-padding-0">
+	<div class="w3-container w3-small w3-right w3-margin">
+					<ul class="w3-navbar w3-card-2 w3-small">
+						<li><a class="w3-btn w3-indigo" onclick="document.getElementById('signup').style.display='block'">Sign Up</a></li>
+					</ul>
+				</div>
 		<div class="w3-container w3-light-grey">
 			<p class="w3-xxxlarge">
 				Who are we?
@@ -29,28 +38,65 @@ li{
 			<li><a href="aboutus.html">About Us</a></li>
 		  </ul>
 		</div>
-		<div class="w3-container  w3-border w3-center">
-		<div class="w3-container  w3-center">
-		<ul><h3>
-			<img class="w3-center" src="Test_Pics/Sean_Pimentel.jpg" style="width:05%"> 
-			 Sean Pimentel</h3><br>
-			  Bio: Team Leader</ul>
-			 </div>
-			 <br>
-		<div class="w3-container  w3-center">
-			 <ul> <h3>
-			 <img class="w3-center" src="Test_Pics/Max_Schimm.jpg" style="width:05%"> 
-			 Max Schimm</h3><br>
-			 Bio: Backend developer</ul>
-		</div>
-		<br>
-		<div class="w3-container  w3-center">
-		<ul><h3>
-			 <img class="w3-center" src="Test_Pics/Elliott_Allmann.jpg" style="width:05%"> 
-			 Elliott Allmann</h3><br>
-			 Bio: Front end developer</ul>
-		</div>
+		<div class="w3-container w3-center">
+			<div class="w3-container w3-card w3-third w3-center w3-large">
+				<ul>
+					<img class="w3-center" src="Test_Pics/Sean_Pimentel.jpg" style="width:70%">
+					<h3> Sean Pimentel</h3>
+					<br>
+					Front end developer, back end developer, team leader. Has experience with MySQL databases from running a World Of Warcraft server and developing developing front end applications for web. Has built many computers and is familiar with current Personal Computer building trends.
+				</ul>
+			</div>
+			<div class="w3-container w3-card w3-third w3-center w3-large">
+				<ul> 
+					<img class="w3-center" src="Test_Pics/Max_Schimm.jpg" style="width:70%">
+					<h3>Max Schimm</h3>
+					<br>
+					Back end developer, in charge of populating the database. I am a computer science major, so I code. I’ve learned C++, ARM assembly, some JavaScript, and am getting familiar with PHP and XML, which will be helpful in the construction of our website.
+				</ul>
+			</div>
+			<div class="w3-container w3-card w3-third w3-center w3-large">
+				<ul>
+					<img class="w3-center" src="Test_Pics/Elliott_Allmann.jpg" style="width:70%">
+					<h3>Elliott Allmann</h3> 
+					<br>
+					Front end developer, in charge of creating the User Interface. Has experience building computers. Familiar with C, C++, Python, ARM Assembly, and HTML. Familiar with donuts, which will be helpful for team meetings. Also in charge of keeping morale high.
+				</ul>
+			</div>
 		</div>
 	</div>
 </body>
 </html>
+<!-- Home Page 
+		<div class="w3-center">
+			<div class="w3-center w3-blue">
+				<h2>Welcome to our CINS 370 Database Project!</h2>
+			</div>
+			<div class="w3-container w3-center w3-small">
+				<div class="w3-padding-left w3-padding-right w3-margin-top">
+					<div class="w3-third">
+						<img class="mySlides w3-animate-top" src="Test_Pics/1310213678_105x210_sc.jpg" style="width:50%;">
+					</div>
+					<div class="w3-third">
+						<img class="mySlides w3-animate-top" src="Test_Pics/Intel_i-7.jpg" style="width:50%">
+					</div>
+					<div class="w3-third">
+						<img class="mySlides w3-animate-top" src="Test_Pics/NVIDIA_980TI.jpg" style="width:50%">
+					</div>
+				</div>
+			</div>
+			<div class="w3-container">
+				<div class="w3-padding-left w3-padding-right w3-margin-top">
+					<div class="w3-third">
+						<img class="mySlides w3-animate-bottom" src="Test_Pics/1305172829_105x210_sc.jpg" style="width:50%">
+					</div>
+					<div class="w3-third">
+						<img class="mySlides w3-animate-bottom" src="Test_Pics/1311709361_105x210_sc.jpg" style="width:50%">
+					</div>
+					<div class="w3-third">
+						<img class="mySlides w3-animate-bottom" src="Test_Pics/1312977240_105x210_sc.jpg" style="width:50%">
+					</div>
+				</div>
+			</div>
+		</div>
+		-->
