@@ -5,20 +5,19 @@
 	<link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
 	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
-	<script>
-		$(document).ready(function() {
-			$("#signup").load("signup.html");
-		});
-	</script>
-	<title>370 Project</title>
-
+		<title>370 Project</title>
+  <script>
+    $(document).ready(function() {
+      $("#id01").load("signup.html");
+    });
+  </script>
 </head>
 <body>
-	<a class="w3-btn w3-indigo" id="signup_btn" onclick="document.getElementById('signup').style.display='block'">Sign Up</a>
+	<a class="w3-btn w3-indigo" id="signup_btn" onclick="document.getElementById('id01').style.display='block'">Sign Up</a>
 	<div class="w3-container w3-center w3-padding-0">
 		<div class="w3-container w3-light-grey w3-center">
 			<p class="w3-xxxlarge">
-				What does each part do?
+				Disclaimer
 			</p>
 		</div>
 		<div class="w3-blue-grey" >
@@ -36,5 +35,7 @@
 		<p style="justify-content: center;">Prices will <b><i>not</i></b> always be the current price. The database is <b><i>not</i></b> going to be updated, so these prices are all from when we pulled the data, around 2/10/16.  This is using Best Buy's free API, which is available to the general public.  We are <b><i>not</i></b> selling or specifically endorsing any of these parts, as they are generated from our database through our advanced algorithm to piece together a PC.</p>
 		</div>
 	</div>
+	<div id="id01" class="w3-modal">
+  </div>
 </body>
 </html>

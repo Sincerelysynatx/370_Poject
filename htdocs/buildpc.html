@@ -5,15 +5,15 @@
 	<link rel="stylesheet" href="styles.css" media="screen" title="no title" charset="utf-8">
 	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
-	<script>
-		$(document).ready(function() {
-			$("#signup").load("signup.html");
-		});
-	</script>
-	<title>370 Project</title>
+		<title>370 Project</title>
+  <script>
+    $(document).ready(function() {
+      $("#id01").load("signup.html");
+    });
+  </script>
 </head>
 <body>
-	<ul style="padding: 0; margin: 0;"><li><a class="w3-btn w3-indigo" id="signup_btn" onclick="document.getElementById('signup').style.display='block'">Sign Up</a></li></ul>
+	<ul style="padding: 0; margin: 0;"><li><a class="w3-btn w3-indigo" id="signup_btn" onclick="document.getElementById('id01').style.display='block'">Sign Up</a></li></ul>
 	<div class="w3-container w3-center w3-padding-0">
 		<div class="w3-container w3-light-grey w3-center">
 			<p class="w3-xxxlarge">
@@ -48,7 +48,7 @@
 					<div class="w3-container w3-half">
 						<li>Purpose</li>
 					</div>
-					<div class="w3-container w3-half">
+					<div class="w3-container w3-half" style="display: inline;">
 						<select class="w3-select" name="Purpose">Select what your PC will be used for.
 							<option value="Gaming"> Gaming</option>
 							<option value="Work/Gaming"> Work, maybe some gaming</option>
@@ -56,18 +56,20 @@
 							<option value="General"> General use</option>
 							<option value="Random"> Random </option>
 						</select>
+
 					</div>
 				</ul>
 			</div>
+		<!--"GO" button-->
 		</div>
-	</div>
-	<!--"GO" button-->
-	<div class="w3-container w3-bottom w3-padding-0">
-		<a class="w3-btn-floating-large w3-teal w3-right w3-margin" id="go_btn" onclick="document.getElementById('id01').style.display='block'">Go</a>
+		<div class="w3-container w3-margin">
+					<a class="w3-btn w3-teal w3-margin w3-center" id="go_btn" onclick="document.getElementById('build').style.display='block'" style="width: 200px; height: 30px;">Go</a>
+		</div>
+	
 	</div>
 	<!--This is the module that pops up when user clicks "GO"-->
-	<div id="id01" class="w3-modal">
-		<span onclick="document.getElementById('id01').style.display='none'"class="w3-closebtn w3-hover-red w3-container w3-margin">×</span>
+	<div id="build" class="w3-modal">
+		<span onclick="document.getElementById('build').style.display='none'"class="w3-closebtn w3-hover-red w3-container w3-margin">×</span>
 		<div class="w3-container w3-light-grey w3-border w3-margin">
 			<div class="w3-modal-content w3-card-8 w3-animate-zoom" style="max-width:600px">
 			<p><b>Here is your computer!</b></p>
@@ -99,6 +101,8 @@
 		    	</div>
 		    </div>
 	    </div>
+  </div>
+	<div id="id01" class="w3-modal">
   </div>
 </body>
 </html>
